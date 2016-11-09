@@ -18,7 +18,7 @@ function closeLoadding() {
     $("#loadding-div").remove();
 }
 
-
+// merge测试
 //改版后模板和中文转换
 function wtStyleToChinese(st){
 //    if (st == "qingxin") {
