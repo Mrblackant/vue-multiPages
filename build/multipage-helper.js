@@ -16,7 +16,7 @@ const templatePath = resolve("template/index.html")
 const templateJs = "./template/config.js"
 
 var moduleList //缓存多页面模块列表
-var moduleRootPath = './src/module' //模块根目录(这个可以根据自己的需求命名)
+var moduleRootPath = './src/views' //模块根目录(这个可以根据自己的需求命名)
 
 /**
  * 获取js入口数组
