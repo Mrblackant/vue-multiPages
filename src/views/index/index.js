@@ -1,15 +1,18 @@
-// let baseUrl="index/index"
-// localStorage.setItem('baseUrl',baseUrl)
+// The Vue build version to load with the `import` command
+// (runtime-only or standalone) has been set in webpack.base.conf with an alias.
 let baseUrl = "noNeed"
+console.log(baseUrl)
 localStorage.setItem('baseUrl', baseUrl)
-import Vue from 'vue';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-import App from './index.vue'
 
-Vue.use(ElementUI);
+import Vue from 'vue'
+import App from './index.vue'
+import router from './router/index_router'
+
+
+/* eslint-disable no-new */
 new Vue({
   el: '#app',
+  router,
   template: '<App/>',
   components: { App }
 })
