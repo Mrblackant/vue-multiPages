@@ -70,7 +70,7 @@ exports.getDevHtmlWebpackPluginList = function getDevHtmlWebpackPluginList() {
     //生成配置
     var conf = {
       filename: mod.moduleID + ".html",
-      template: mod.moduleHTML,
+      template: mod.moduleHTML ? mod.moduleHTML : templatePath,
       chunks: [mod.moduleID,'app'],
       chunksSortMode: 'manual',
       inject: true
@@ -97,7 +97,7 @@ exports.getProdHtmlWebpackPluginList = function getProdHtmlWebpackPluginList() {
     //生成配置
     var conf = {
       filename: mod.moduleID + ".html",
-      template: templatePath,
+      template: mod.moduleHTML ? mod.moduleHTML : templatePath,
       inject: true,
       minify: {
         removeComments: true,
@@ -141,10 +141,10 @@ function readDirSync(path, moduleName) {
       readDirSync(path + "/" + ele, ele)
     } else {
       //判断当前模块的html是否存在
-      // if (moduleName+".html" == ele){
-      //   module.moduleHTML = path+"/"+ele
-      // }
-      module.moduleHTML = templatePath
+      if (moduleName+".html" == ele){
+        module.moduleHTML = path+"/"+ele
+      }
+      // module.moduleHTML = templatePath
 
       //判断当前模块的js是否存在
       if (moduleName + ".js" == ele) {
