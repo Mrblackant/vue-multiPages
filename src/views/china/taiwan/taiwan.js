@@ -1,2 +1,2 @@
-let baseUrl = "crm/lx/seed/bank/bank"
+let baseUrl = "china/taiwan/taiwan"
 localStorage.setItem('baseUrl', baseUrl)
