@@ -1,18 +1,8 @@
-/**
- * 多页面支持
- * @File:
- * @Description: 多页面支持
- * @author qingyi xuelongqy@foxmail.com
- * @date 2017/6/15 10:16
- * @version V1.0
- */
-
 var path = require('path')
 var fs = require("fs")
 const resolve = (p) => path.resolve(__dirname, "..", p)
 var HtmlWebpackPlugin = require('html-webpack-plugin')
 const templatePath = resolve("template/index.html")
-// const templateJs = resolve("template/config.js")
 const templateJs = "./template/config.js"
 
 var moduleList //缓存多页面模块列表
