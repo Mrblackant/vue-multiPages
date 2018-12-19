@@ -1,0 +1,1 @@
+localStorage.setItem('baseUrl', 'dashboard/dashboardApp')

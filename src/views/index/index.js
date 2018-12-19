@@ -1,15 +1,15 @@
-// let baseUrl="index/index"
-// localStorage.setItem('baseUrl',baseUrl)
-let baseUrl = "noNeed"
-localStorage.setItem('baseUrl', baseUrl)
-import Vue from 'vue';
-import ElementUI from 'element-ui';
-import 'element-ui/lib/theme-chalk/index.css';
-import App from './index.vue'
-
-Vue.use(ElementUI);
-new Vue({
-  el: '#app',
-  template: '<App/>',
-  components: { App }
-})
+localStorage.setItem('baseUrl', 'index/index')
+// import Vue from 'vue';
+// import App from './index.vue'
+// import router from './router/index_router'
+// import '@/styles/fonts/iconfont.css'
+// // import ElementUI from 'element-ui'
+// // Vue.use(ElementUI)
+// Vue.config.productionTip = false
+// /* eslint-disable no-new */
+// new Vue({
+//   el: '#app',
+//   router,
+//   template: '<App/>',
+//   components: { App }
+// })

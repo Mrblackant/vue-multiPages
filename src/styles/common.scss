@@ -1,0 +1,243 @@
+#app {
+  min-width: 1250px;
+}
+
+.width100 {
+  width: 100%;
+}
+
+.lx_container {
+  margin: 0 20px;
+}
+
+.lx_block_border {
+  background-color: #fff;
+  box-sizing: border-box;
+  -moz-box-shadow: 0px 4px 6px #B5BFC6, 0px -3px 6px #B5BFC6;
+  -webkit-box-shadow: 0px 4px 6px #B5BFC6, 0px -3px 6px #B5BFC6;
+  box-shadow: 0px 4px 6px #B5BFC6, 0px -3px 6px #B5BFC6;
+  border-radius: 5px;
+  margin-bottom: 20px;
+  //overflow: hidden;
+}
+
+.lx_block_container {
+  padding: 17px;
+}
+
+#app .width_110 {
+  width: 110px;
+}
+
+.lx_block_btn {
+  position: absolute;
+  right: 45px;
+}
+
+// 表格标题背景色
+.lx_table_hd {
+  th {
+    background-color: #f0f9fb;
+    border-top: 1px solid #e4e7ed;
+    font-weight: 500;
+    height: 64px;
+    line-height: 40px;
+  }
+}
+
+.lx_table_hd_blue {
+  th {
+    background-color: #f2f9ff;
+  }
+}
+
+.lx_block_annotation {
+  font-size: 12px;
+  color: #303133;
+  margin-left: 30px;
+}
+
+// 头部标题新增
+.lx_subhd_box {
+  position: absolute;
+  right: 77px;
+  top: 50%;
+  -webkit-transform: translateY(-50%);
+  -moz-transform: translateY(-50%);
+  -ms-transform: translateY(-50%);
+  -o-transform: translateY(-50%);
+  transform: translateY(-50%);
+}
+
+// 分页居中
+.lx_page {
+  margin-top: 50px;
+  margin-bottom: 30px;
+  display: flex;
+  justify-content: center;
+}
+
+// 弹出窗样式覆盖ele-ui
+.lx_dialog {
+  .el-dialog {
+    border-radius: 5px;
+    border: 1px solid #e4e7ed;
+    .el-dialog__header {
+      padding: 0;
+    }
+    .el-dialog__body {
+      padding: 25px 0 25px 25px;
+      .lx_dialog_mr10 {
+        padding-right: 25px;
+      }
+      .lx_dialog_tip {
+        color: #2196f3;
+        font-size: 16px;
+        font-family: "Microsoft YaHei";
+        font-weight: 500;
+      }
+    }
+    .el-checkbox.is-bordered + .el-checkbox.is-bordered {
+      margin-left: 0;
+    }
+    .el-checkbox {
+      //margin-right: 10px;
+      //margin-bottom: 10px;
+      //width: 154px;
+      //text-align: center;
+    }
+  }
+}
+
+.lx_dialog_title {
+  position: relative;
+  height: 56px;
+  line-height: 56px;
+  padding-left: 24px;
+  left: 0;
+  color: #1e88e5;
+  text-align: left;
+  border-bottom: 2px solid #e4e7ed;
+  h2 {
+    font-size: 16px;
+    font-weight: 500;
+    margin: 0;
+  }
+}
+
+// larger button
+.lx_larger_btn {
+  width: 140px;
+}
+
+// 表格增加按钮
+.lx_right_btn {
+  display: flex;
+  justify-content: flex-end;
+  margin-right: 45px;
+  margin-bottom: 20px;
+}
+
+.lx_mr_45 {
+  margin-right: 45px;
+}
+
+.lx_mr_130 {
+  margin-right: 130px;
+}
+
+// 提交居中按钮
+.lx_btn_center {
+  padding-bottom: 50px;
+  padding-top: 30px;
+  text-align: center;
+}
+
+// 附件样式覆盖
+.lx_upload_atta {
+  .el-upload-list {
+    position: absolute;
+    top: 5px;
+    left: 95px;
+    display: flex;
+    flex-wrap: wrap;
+    .el-upload-list__item {
+      margin-top: 0;
+      height: 20px;
+      box-sizing: border-box;
+      line-height: 20px;
+      background-color: #f0f2f5;
+      margin-top: 5px;
+      margin-right: 10px;
+      width: 194px;
+      overflow: hidden;
+      .el-icon-close {
+        top: 4px;
+      }
+      .el-icon-close-tip {
+        display: none;
+        left: -10000px;
+        right: 0;
+      }
+    }
+  }
+}
+
+.lx_country_box.lx_bottom_0 {
+  margin-bottom: 0;
+}
+
+// 根据产品要求修改禁用后文字颜色为黑色
+.lx_main {
+  .el-input.is-disabled .el-input__inner,
+  .el-checkbox__input.is-disabled + span.el-checkbox__label,
+  .el-radio__input.is-disabled + span.el-radio__label,
+  .el-textarea.is-disabled .el-textarea__inner {
+    color: #000;
+  }
+}
+
+// 详情--合作信息
+.lx_row_txt {
+  line-height: 30px;
+  margin-bottom: 15px;
+  color: #303133;
+  font-size: 16px;
+  font-family: "Microsoft YaHei";
+}
+
+.lx_row_values {
+  word-wrap: break-word;
+  word-break: break-all;
+}
+
+.lx_mr_20 {
+  margin-right: 20px;
+}
+
+.lx_width_150 {
+  width: 150px;
+}
+
+.item_cont {
+  padding-left: 120px;
+  margin: 0;
+  min-height: 30px;
+  word-wrap: break-word;
+}
+
+.lx_col {
+  color: #303133;
+  font-size: 16px;
+  line-height: 30px;
+  font-family: "Microsoft YaHei";
+  position: relative;
+  margin-bottom: 15px;
+}
+
+.label_cont {
+  position: absolute;
+  left: 0;
+  top: 0;
+  color: #606266;
+}

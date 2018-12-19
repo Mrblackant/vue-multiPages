@@ -1,0 +1,238 @@
+.lx_container {
+  .lx_row_txt {
+    //height: 30px;
+    line-height: 30px;
+    margin-bottom: 15px;
+    color: #303133;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+  }
+}
+
+.lx_pastinfo {
+  display: flex;
+  overflow: hidden;
+  margin-top: 10px;
+  span {
+    display: block;
+    line-height: 40px;
+    width: 120px;
+  }
+}
+
+.lx_brotmp_sel {
+  display: block;
+  margin-top: 15px;
+}
+
+.lx_brotmp_radio {
+  margin-right: 15px;
+}
+
+.lx_brotmp_radio.is-bordered {
+  width: 300px;
+  height: 83px;
+}
+
+.lx_level_main {
+  position: relative;
+  .el-form-item__label {
+    line-height: 22px;
+  }
+}
+
+.lx_form_label_16 {
+  .el-form-item__label {
+    font-size: 16px;
+  }
+}
+
+.lx_level_dialog {
+  position: absolute;
+  left: -110px;
+  top: 8px;
+  color: #2196f3;
+  font-size: 12px;
+  cursor: pointer;
+  text-decoration: underline;
+}
+
+.lx_redcolor_up {
+  color: #f56c6c;
+  text-decoration: none
+}
+
+.lx_form_baseinfo {
+  margin-right: 150px;
+  label.el-form-item__label {
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+  }
+}
+
+.lx_flex_broke {
+  display: flex;
+  align-items: center;
+  justify-content: flex-start;
+  margin-bottom: 20px;
+  &:last-child{
+    margin-bottom: 0;
+  }
+  .lx_flex_2 {
+    flex: 3;
+  }
+  .lx_flex_1 {
+    flex: 1;
+  }
+  .lx_flex_item {
+    margin-right: 15px;
+    max-width: 300px;
+  }
+  .lx_short_wd {
+    max-width: 100px;
+  }
+  .lx_broke_span {
+    display: inline-block;
+    width: 65px;
+  }
+  .lx_btn_mini {
+    height: 28px;
+    line-height: 28px;
+    padding: 0;
+    padding: 0 12px;
+  }
+}
+
+.lx_grads {
+  &_header {
+    height: 39px;
+    line-height: 39px;
+    background-color: #f2f9ff;
+    border-top: 1px solid #e4e7ed;
+    display: flex;
+    color: #909399;
+    font-family: "Microsoft YaHei";
+    font-size: 14px;
+  }
+  &_nums {
+    flex: 1;
+    display: flex;
+    justify-content: center;
+  }
+  &_charge {
+    flex: 3;
+    box-sizing: border-box;
+    padding-left: 30px;
+  }
+  &_body {
+
+  }
+  &_row {
+    display: flex;
+    border-bottom: 1px solid #e4e7ed;
+    height: 53px;
+    line-height: 53px;
+  }
+  &_add {
+    display: flex;
+    justify-content: flex-end;
+    height: 52px;
+    border-bottom: 1px solid #e4e7ed;
+    align-items: center;
+    &_btn {
+      margin-right: 40px;
+    }
+  }
+}
+
+.lx_nums_init {
+  text-align: center;
+}
+
+.lx_width_110 {
+  width: 110px;
+}
+
+.lx_width_70 {
+  width: 70px;
+}
+
+.lx_form_tmp {
+  width: 80%;
+  min-width: 950px;
+}
+
+.lx_set_btn {
+  margin: 0 80px 20px 43px;
+  display: flex;
+  justify-content: space-between;
+}
+
+.lx_set_morelevel {
+  display: flex;
+  .lx_set_span {
+    font-size: 16px;
+    line-height: 42px;
+    margin-right: 30px;
+  }
+}
+
+.lx_dialog.lx_addschool_dialog {
+  div.el-dialog__body {
+    padding-left: 0;
+  }
+}
+
+.lx_form_tmp_dialog {
+  margin-top: 20px;
+  margin-right: 30px;
+}
+
+.lx_chk_comm_school {
+  margin-right: 10px;
+  margin-bottom: 10px;
+  position: relative;
+  .lx_chk_school_name {
+    text-align: left;
+    display: block;
+  }
+  .el-checkbox__input {
+    position: absolute;
+    top: 50%;
+    -webkit-transform: translateY(-50%);
+    -moz-transform: translateY(-50%);
+    -ms-transform: translateY(-50%);
+    -o-transform: translateY(-50%);
+    transform: translateY(-50%);
+    left: 10px;
+  }
+  .el-checkbox__label {
+    padding-left: 25px;
+  }
+}
+
+.lx_chk_comm_school.is-bordered {
+  height: auto;
+}
+
+.lx_tmp_title {
+  height: 78px;
+  line-height: 78px;
+  border-top: 1px solid #e4e7ed;
+  display: flex;
+  justify-content: space-between;
+  border-bottom: 1px solid #e4e7ed;
+   margin-bottom: 20px;
+  h2 {
+    color: #2196f3;
+    font-size: 16px;
+    font-family: "Microsoft YaHei";
+    font-weight: 500;
+    line-height:78px;
+    margin: 0;
+  }
+}
+
+.lx_tool_tmp_btn {
+  margin-right: 40px;
+}
